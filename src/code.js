@@ -179,8 +179,8 @@ function formatHtmlBody(content, startDate, deadline) {
         <!-- Task Details Box -->
         <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545; margin: 15px 0;">
           <div style="margin-bottom: 10px;">
-            <span style="display: inline-block; width: 15px; height: 15px; background-color: #6c757d; margin-right: 8px;"></span>
-            <strong>Tóm tắc sách</strong>
+            <span style="display: inline-block; width: 15px; height: 15px; background-color: #f8f9fa; border: 1px solid #dee2e6; color: #495057; font-weight: bold; font-size: 10px; text-align: center; line-height: 13px; margin-right: 8px;">T</span>
+            <strong>Tóm tắt sách</strong>
           </div>
           
           <div style="margin: 10px 0; color: #666;">
@@ -198,7 +198,7 @@ function formatHtmlBody(content, startDate, deadline) {
         
         <!-- Footer Message -->
         <div style="margin-top: 20px; color: #666; font-size: 14px;">
-          Vui lòng hoàn thành công việc này trong thời gian sớm nhất có thể và cập nhật trạng thái trong bảng kế hoạch.
+          Vui lòng <strong>hoàn thành công việc này trong thời gian sớm nhất có thể</strong> và cập nhật trạng thái trong bảng kế hoạch.
         </div>
         
         <div style="margin-top: 15px; color: #666; font-size: 14px;">
